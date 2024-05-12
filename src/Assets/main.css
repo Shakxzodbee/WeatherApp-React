@@ -22,13 +22,11 @@
 	max-width: 400px;
 	margin: 0 auto;
 }
-
 .loader-img {
 	width: 150px;
 	height: 150px;
     margin: 20px auto !important;
 }
-
 /* home section styles  */
 @keyframes SettingsAnim {
 	0% {
@@ -60,7 +58,6 @@
 	background: url(../Assets/img/icon.png) no-repeat;
 	background-size: cover;
 }
-
 .home-header-settings {
 	width: 40px;
 	height: 40px;
@@ -70,13 +67,11 @@
 	animation: SettingsAnim infinite;
 	animation-duration: 3s;
 }
-
 .home-error{
     width: 80%;
     text-align: center;
     margin-top: 50px;
 }
-
 .error-img{
     width: 150px;
     height: 150px;
@@ -106,7 +101,6 @@
 	align-items: center;
 	flex-direction: column;
 }
-
 .card >img, .card-img {
 	display: block;
 	width: 180px;
@@ -170,8 +164,6 @@
 	border-radius: 50%;
 	box-shadow: 0 0 5px rgba(45, 45, 45, 0.5);
 }
-
-
 .footer{
     width: 400px;
     margin: 0 auto;
@@ -191,14 +183,10 @@
     height: 40px;
     color: #c4c4c4cc;
 }
-
 .footer >a >svg:hover, .footer > .active >svg{
     color: #D86191;
 }
-
 /* search section styles  */
-
-
 .empty-icon-container{
     margin:30px auto;
     text-align:center;
@@ -228,7 +216,6 @@
     animation: bounceAnim 1s cubic-bezier(.63,.09,.75,.46) infinite alternate,
               spinAnim 3s linear infinite;
   }
-  
   @keyframes bounceAnim{
     0%, 10% { bottom: 50%; }
   
@@ -242,7 +229,6 @@
       transform: rotate(360deg);
     }
   }
-  
   .pebble1{
     position:absolute;
     top:95%;
@@ -270,26 +256,21 @@
     border-radius: 20px 20px 0px 0px;
     animation: pebblesAnim 3s linear infinite;
   }
-  
   @keyframes pebblesAnim{
     0% { right: -20%; }
     100% { right: 110%; }
   }
-
   .empty-icon-container >div:nth-child(2) >p{
     font-family: 'Mulish', sans-serif;
   }
-
 .search{
     width: 100%;
     margin: 0 auto;
 }
-
 .search-title{
     text-align: center;
     margin: 15px auto;
 }
-
 .form{
     width: 100%;
     display: flex;
@@ -304,7 +285,6 @@
     box-shadow: 0 0 5px rgba(45, 45, 45, 0.5);
     font-family: 'Mulish', sans-serif;
 }
-
 .form-btn{
     padding: 7px 15px;
     border: none;
@@ -312,12 +292,10 @@
     box-shadow: 0 0 5px rgba(45, 45, 45, 0.5);
     font-family: 'Mulish', sans-serif;
 }
-
 .search > .card-wrapper{
     display: flex;
     flex-direction: column;
 }
-
 .bookmark-btn{
     position: absolute;
     display: block;
@@ -327,11 +305,9 @@
     background-size: cover;
     margin-top: 33px;
 }
-
 .bookmark-btn:active{
     transform: scale(1.3);
 }
-
 /* bookmark section styles  */
 .bookmark{
     width: 100%;
@@ -341,7 +317,6 @@
     text-align: center;
     margin-top: 20px;
 }
-
 .back{
     display: block;
     margin: 5px auto;
@@ -371,7 +346,6 @@
     margin-bottom: 10px;
     border-radius: 5px;
 }
-
 .bookmark-delete{
     width: 48px;
     height: 48px;
@@ -379,14 +353,11 @@
     background-size: cover;
     cursor: pointer;
 }
-
-
 /* settings section styles  */
 .settings-title{
     text-align: center;
     margin: 20px 0;
 }
-
 .settings-select{
     display: block;
     padding: 2px 10px;
@@ -395,7 +366,6 @@
     border-radius: 5px;
     outline: none;
 }
-
 .more{
     width: 100%;
     background: white;
@@ -404,7 +374,6 @@
 	align-items: center;
     flex-direction: column;
 }
-
 .more-date{
     position: absolute;
     margin-top: 20px;
@@ -414,14 +383,12 @@
     list-style: none;
     margin-bottom: 100px;
 }
-
 .daily-card-item{
     box-shadow: 0 0 5px rgba(45, 45, 45, 0.5);
     margin: 15px;
     border-radius: 5px;
     padding: 10px 15px;
 }
-
 .daily-card-item >div{
     display: flex;
     justify-content: space-between;
@@ -435,24 +402,15 @@
     font-weight: 700;
 
 }
-
 .daily-card-item >span, .daily-card-item>time{
     display: block;
     font-family: 'Mulish', sans-serif;
     font-weight: 600;
     font-size: 17px;
 }
-
-
-
-
 .d-none{
     display: none;
 }
-
-
-
-
 @media only screen and (max-width: 450px){
     .card{
         width: 95%;
