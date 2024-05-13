@@ -22,6 +22,7 @@ const Settings = () =>{
                 <option value="uz">{SettingsItem[lang].option.uz}</option>
                 <option value="ru">{SettingsItem[lang].option.ru}</option>
                 <option value="en">{SettingsItem[lang].option.en}</option>
+                <option value="kr">{SettingsItem[lang].option.kr}</option>
             </select>
 
             <footer className='footer'>

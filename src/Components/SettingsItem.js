@@ -1,6 +1,6 @@
 const SettingsItem = {
-    uz:{
-        weekDaysArr:["Yakshanba",'Dushanba','Seshanba','Chorshanba','Payshanba','Juma','Shanba'],
+    uz: {
+        weekDaysArr: ["Yakshanba", 'Dushanba', 'Seshanba', 'Chorshanba', 'Payshanba', 'Juma', 'Shanba'],
         more: "Ko'proq ma'lumot",
         placeholder: "shahar nomini kiriting",
         cities: "Sevimli shahringizni toping",
@@ -15,19 +15,20 @@ const SettingsItem = {
         morn: "Ertalab",
         day: "Kuni bo'yi",
         night: "Kechasi",
-        homeerror:"Server bilan ulanishda muammo birozdan so'ng qayta urining",
-        searcherror:{
-            h2:'0 ta natija topildi',
-            p:"Kechirasiz! Hech qanday natija topa olmadik."
+        homeerror: "Server bilan ulanishda muammo birozdan so'ng qayta urining",
+        searcherror: {
+            h2: '0 ta natija topildi',
+            p: "Kechirasiz! Hech qanday natija topa olmadik."
         },
-        option:{
-          uz:"O'zbekcha",
-          ru:"Ruscha",
-          en:"Inglizcha",
+        option: {
+            uz: "O'zbekcha",
+            ru: "Ruscha",
+            en: "Inglizcha",
+            kr: "Krilcha",
         }
     },
-    ru:{
-        weekDaysArr:["Воскресе́нье",'Понедельник','Вторник','Среда','Четверг','Пятница','Суббота'],
+    ru: {
+        weekDaysArr: ["Воскресе́нье", 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'],
         more: "Посмотреть больше",
         placeholder: "введите название города",
         cities: "Найдите свой любимый город",
@@ -42,19 +43,20 @@ const SettingsItem = {
         morn: "Утром",
         day: "В течение дня",
         night: "Ночью",
-        homeerror:"Проблема с подключением к серверу, повторите попытку через некоторое время",
-        searcherror:{
-            h2:'0 результатов найдено',
-            p:"Извиняюсь! Мы не смогли найти никаких результатов."
+        homeerror: "Проблема с подключением к серверу, повторите попытку через некоторое время",
+        searcherror: {
+            h2: '0 результатов найдено',
+            p: "Извиняюсь! Мы не смогли найти никаких результатов."
         },
-        option:{
-            uz:"Узбекский",
-            ru:"Русский",
-            en:"Английский",
+        option: {
+            uz: "Узбекский",
+            ru: "Русский",
+            en: "Английский",
+            kr: "Крилча",
         }
     },
-    en:{
-        weekDaysArr:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    en: {
+        weekDaysArr: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
         more: "Wiew more",
         placeholder: "введите название города",
         cities: "Type city's name",
@@ -69,17 +71,46 @@ const SettingsItem = {
         morn: "In the morning",
         day: "During the day",
         night: "At night",
-        homeerror:"Server bilan ulanishda muammo birozdan so'ng qayta urining",
-        searcherror:{
-            h2:'0 results found',
-            p:"Sorry! We couldn't find any results."
+        homeerror: "There is a problem connecting to the server, please try again later",
+        searcherror: {
+            h2: '0 results found',
+            p: "Sorry! We couldn't find any results."
         },
-        option:{
-            uz:"Uzbek",
-            ru:"Russian",
-            en:"English",
+        option: {
+            uz: "Uzbek",
+            ru: "Russian",
+            en: "English",
+            kr: "Krils",
         }
-    }
+    },
+    kr: {
+        weekDaysArr: ["Душанда", "Сешанда", "Чоршанда", "Пайшанба", "Жума", "Шанба", "якшанба"],
+        more: "Кўпроқ маълумот",
+        placeholder: "Шаҳар номини киритинг",
+        cities: "Севимли шаҳрингизни топинг",
+        search: "Излаш",
+        bookmarkcities: "Севимли шаҳарлар рўйҳати",
+        langu: "Маъқул тилни танланг..",
+        add: "Sevimlilarga qo'shish",
+        back: "орқага",
+        currentpressure: "Атмосфера босими",
+        currenthumidity: "Намлик",
+        currentwindspeed: "Шамол тезлиги секундига",
+        morn: "Эрталаб",
+        day: "Куни бўйи",
+        night: "Кечаси",
+        homeerror: "Сервер билан уланишда муаммо бироздан сўнг қайта урининг",
+        searcherror: {
+            h2: '0 та натижа топилди',
+            p: 'Кечирасиз! Ҳеч қандай натижа топа олмадик.'
+        },
+        option: {
+            uz: "Ўзбекча",
+            ru: "Русча",
+            en: "Инглизча",
+            kr: "Крилча",
+        }
+    },
 }
 
 export default SettingsItem;
